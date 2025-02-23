@@ -7,6 +7,8 @@ body {
 
   main {
     padding: 20px;
+
+    overflow: auto;
   }
    
   h2 {
@@ -78,3 +80,18 @@ body {
  .ale {
   color: #a21010;
  }
+
+ #content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
